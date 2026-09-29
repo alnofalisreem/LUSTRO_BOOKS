@@ -34,15 +34,6 @@ Users can browse books, add them to their cart or favorites, and place orders. T
 - `uploads` — Book images uploaded by sellers
 - `vendor` — PHPMailer library files
 
-## Running the Project Locally
-
-1. Place the project inside the XAMPP `htdocs` folder with the name `lustro_books`.
-2. Start Apache and MySQL.
-3. Set up the `lustro_books` database with the required tables and sample data. The website does not create the database automatically.
-4. Update `connection.php` if your database settings are different.
-5. Add your own SMTP settings in `mail_config.php` to enable email verification and order emails.
-6. Open `http://localhost/lustro_books/` in your browser.
-
 > **Note:** `mail_config.php` is excluded from this repository because it contains private email configuration. You will need to create and configure your own version locally.
 
 ## Project Status
