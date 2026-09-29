@@ -1,4 +1,4 @@
-# LUSTRO BOOKS 📚
+# LUSTRO BOOKS 
 
 LUSTRO BOOKS is a demo bookstore website I built as a portfolio project to practice web development with PHP and MySQL.
 
@@ -54,3 +54,20 @@ I may improve these parts and add more features in the future.
 This project is for learning and portfolio purposes. It does not handle real payments, deliveries, or seller payouts.
 
 Email verification and order notifications can send real emails when the email service is configured.
+
+## Screenshots
+
+### Home
+![LUSTRO BOOKS Home](Home.jpg)
+
+### Browse Books
+![Browse Books](Books.jpg)
+
+### Book Details
+![Book Details](Book_details.jpg)
+
+### My Orders
+![My Orders](Orders.jpg)
+
+### Seller Dashboard
+![Seller Dashboard](Seller_dashboard.jpg)
