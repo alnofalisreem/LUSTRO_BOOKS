@@ -92,7 +92,6 @@ include 'header.php';
                 <div>
                     <h2>Order Summary</h2>
                     <p>Confirm the books in your order.</p>
-                    <p>Out-of-stock books stay in your cart and are not included in this order.</p>
                 </div>
             </div>
 
