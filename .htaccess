@@ -1,0 +1,46 @@
+Options -MultiViews
+DirectoryIndex index.php
+RewriteEngine On
+<FilesMatch "^(mail_config\.php|email_verification\.php|send_order_email\.php|email_verification_setup\.sql)$">
+    Require all denied
+</FilesMatch>
+
+# Keep existing files, uploads, and form handlers available.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [END]
+
+RewriteRule ^Books/([0-9]+)/?$ book_details.php?id=$1 [NC,END]
+RewriteRule ^BookDetails/?$ /lustro_books/Book-Details [R=302,END]
+RewriteRule ^Book-Details/?$ book_details.php [NC,END]
+RewriteRule ^Login/?$ /lustro_books/Sign-in [R=302,END]
+RewriteRule ^Sign-in/?$ login.php [NC,END]
+RewriteRule ^Register/?$ /lustro_books/Create-Account [R=302,END]
+RewriteRule ^Create-Account/?$ register.php [NC,END]
+RewriteRule ^Verify-Email/?$ verify_email.php [NC,END]
+RewriteRule ^My-Books/?$ my_books.php [NC,END]
+RewriteRule ^Sell-Book/?$ /lustro_books/Publish-a-Book [R=302,END]
+RewriteRule ^Publish-a-Book/?$ add_book.php [NC,END]
+RewriteRule ^My-Orders/?$ my_orders.php [NC,END]
+RewriteRule ^Cart/?$ /lustro_books/My-Cart [R=302,END]
+RewriteRule ^My-Cart/?$ cart.php [NC,END]
+RewriteRule ^Checkout/?$ checkout.php [NC,END]
+RewriteRule ^Favorites/?$ /lustro_books/My-Favorites [R=302,END]
+RewriteRule ^My-Favorites/?$ favorites.php [NC,END]
+RewriteRule ^FAQ/?$ /lustro_books/Frequently-Asked-Questions [R=302,END]
+RewriteRule ^Frequently-Asked-Questions/?$ faq.php [NC,END]
+RewriteRule ^Terms-Conditions/?$ /lustro_books/Terms-and-Conditions [R=302,END]
+RewriteRule ^Terms-and-Conditions/?$ terms.php [NC,END]
+RewriteRule ^Privacy-Policy/?$ privacy.php [NC,END]
+RewriteRule ^Selling-Policy/?$ /lustro_books/Book-Selling-Policy [R=302,END]
+RewriteRule ^Book-Selling-Policy/?$ selling_policy.php [NC,END]
+RewriteRule ^How-It-Works/?$ how_it_works.php [NC,END]
+RewriteRule ^Order-Success/?$ /lustro_books/Order-Confirmed [R=302,END]
+RewriteRule ^Order-Confirmed/?$ order_success.php [NC,END]
+RewriteRule ^Logout/?$ /lustro_books/Log-out [R=302,END]
+RewriteRule ^Log-out/?$ logout.php [NC,END]
+
+RewriteRule ^Novels/?$ index.php?cat_id=1 [NC,QSA,END]
+RewriteRule ^Childrens-Books/?$ index.php?cat_id=2 [NC,QSA,END]
+RewriteRule ^Student-Books/?$ index.php?cat_id=3 [NC,QSA,END]
+
