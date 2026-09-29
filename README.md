@@ -58,16 +58,16 @@ Email verification and order notifications can send real emails when the email s
 ## Screenshots
 
 ### Home
-![LUSTRO BOOKS Home](Home.jpg)
+![LUSTRO BOOKS Home](Home.png)
 
 ### Browse Books
-![Browse Books](Books.jpg)
+![Browse Books](Books.png)
 
 ### Book Details
-![Book Details](Book_details.jpg)
+![Book Details](Book_details.png)
 
 ### My Orders
-![My Orders](Orders.jpg)
+![My Orders](Orders.png)
 
 ### Seller Dashboard
-![Seller Dashboard](Seller_dashboard.jpg)
+![Seller Dashboard](Seller_dashboard.png)
