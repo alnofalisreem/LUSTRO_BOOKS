@@ -61,13 +61,13 @@ $result = mysqli_query($conn, $sql);
             <h2>Try clicking on a book</h2>
             <div class="click-books-grid">
                 <a class="click-book" href="/lustro_books/Books/51" aria-label="View My First Number Book details">
-                    <img src="image/featured-book-1.png" alt="My First Number Book">
+                    <img src="icon/featured-book-1.png" alt="My First Number Book">
                 </a>
                 <a class="click-book" href="/lustro_books/Books/54" aria-label="View Soldier details">
-                    <img src="image/featured-book-2.png?v=2" alt="Soldier">
+                    <img src="icon/featured-book-2.png?v=2" alt="Soldier">
                 </a>
                 <a class="click-book" href="/lustro_books/Books/35" aria-label="View Modern Architecture details">
-                    <img src="image/featured-book-3.png" alt="Modern Architecture">
+                    <img src="icon/featured-book-3.png" alt="Modern Architecture">
                 </a>
             </div>
         </div>

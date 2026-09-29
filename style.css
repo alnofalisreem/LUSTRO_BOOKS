@@ -265,7 +265,7 @@ nav {
     display: flex;
     align-items: center;
     padding-left: 8%;
-    background: url("image/home-hero.png") center / cover no-repeat;
+    background: url("icon/home-hero.png") center / cover no-repeat;
     color: #5D4636;
 }
 
