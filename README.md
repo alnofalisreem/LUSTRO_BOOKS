@@ -34,17 +34,12 @@ Users can browse books, add them to their cart or favorites, and place orders. T
 - `uploads` — Book images uploaded by sellers
 - `vendor` — PHPMailer library files
 
-> **Note:** `mail_config.php` is excluded from this repository because it contains private email configuration. You will need to create and configure your own version locally.
-
 ## Project Status
 
-This project is still in development. Some parts need further testing and improvements, including order error handling, and form security.
+This project was built for learning and portfolio purposes and is still under development. Some areas still need improvement, including order error handling and form security.
 
-I may improve these parts and add more features in the future.
+The store is a demo and does not process real payments, deliveries, or seller payouts. Email verification and order notifications send real emails when the email service is configured.
 
-This project is for learning and portfolio purposes. It does not handle real payments, deliveries, or seller payouts.
-
-Email verification and order notifications can send real emails when the email service is configured.
 
 ## Screenshots
 
